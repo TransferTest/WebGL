@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>WebGL Project</title>
+  </head>
+
+  <body onload="init();">
+    <canvas id="glcanvas" width="640" height="480"></canvas>
+    <script src="resources/lib/gl-matrix.js"></script>
+    <script src="resources/scripts/RenderObject.js"></script>
+    <script src="resources/scripts/Main.js"></script>
+    <script>
+        function init()
+        {
+            main = new Main();
+        }
+    </script>
+  </body>
+</html>
